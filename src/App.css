@@ -2,6 +2,37 @@
   text-align: center;
 }
 
+.payers-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-title{
+  font-size: 30px;
+
+}
+.current-player-text{
+  font-size: 30px;
+}
+.reset-btn{
+  background-color: #b3daf0;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 100px;
+  display:block;
+  margin:20px auto;
+}
+.winneer-text{
+  text-align: center;
+  font-size: 30px;
+  background-color: #fff;
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 200px;
+}
+
 .row{
   display: flex;
   justify-content: center;
@@ -20,6 +51,10 @@
   border: 1px solid gray;
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
 }
 .box:hover{
  cursor: pointer;
