@@ -72,7 +72,7 @@ function App() {
       6: "",
       7: "",
       8: "",
-      9: ""
+      9: "",
     
     })
       setWinner(null);
@@ -84,7 +84,7 @@ function App() {
 
   return (
     <div>
-      <h1 className='text-center heading-title'>Tic Tac  Toe </h1>
+      <h1 className='text-center heading-title'> 🐥Tic Tac  Toe 🐧 </h1>
 
    <div className='payers-container'>
        <span className='player-title'>
@@ -112,11 +112,11 @@ function App() {
 
     <div className='board'>
 
-    <div className='row'>
-         <div className='box' onClick={() => {play(1)}}>
+    <div className='row row1'>   
+         <div className='box boxs' onClick={() => {play(1)}}>
           {board[1]}
          </div>
-         <div className='box' onClick={()=> {play(2)}}>
+         <div className='box boxs' onClick={()=> {play(2)}}>
           {board[2]}
          </div>
          <div className='box' onClick={()=> {play(3)}}>
@@ -124,23 +124,25 @@ function App() {
          </div>
       </div>
 
-      <div className='row'>
-         <div className='box' onClick={()=> {play(4)}}>
+      <div className='row row1' >
+       
+         <div className='box boxs' onClick={()=> {play(4)}}>
           {board[4]}
          </div>
-         <div className='box' onClick={()=> {play(5)}}>
+         <div className='box boxs' onClick={()=> {play(5)}}>
           {board[5]}
          </div>
          <div className='box' onClick={()=> {play(6)}}>
           {board[6]}
          </div>
+         
       </div>
 
-      <div className='row'>
-         <div className='box' onClick={()=> {play(7)}}>
+      <div className='row' >
+         <div className='box boxs' onClick={()=> {play(7)}}>
           {board[7]}
          </div>
-         <div className='box'onClick={()=> {play(8)}}>
+         <div className='box boxs'onClick={()=> {play(8)}}>
           {board[8]}
          </div>
          <div className='box'onClick={()=> {play(9)}}>
@@ -150,7 +152,7 @@ function App() {
 
     </div>
 
-    <button type='button' className='reset-btn' onclick={reset}>Reset</button>
+    <button type='button' className='reset-btn' onClick={ reset}>Reset</button>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
     </div>
   )

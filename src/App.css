@@ -15,46 +15,61 @@
   font-size: 30px;
 }
 .reset-btn{
-  background-color: #b3daf0;
-  font-size: 20px;
-  border-radius: 20px;
+  background-color: #8dd0f6;
+  font-size: 25px;
+  border-radius: 25px;
   border: none;
   padding: 10px 100px;
   display:block;
   margin:20px auto;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.reset-btn:hover{
+ box-shadow:0 0 5px 3px rgb(140, 130, 232) ;
 }
 .winneer-text{
   text-align: center;
   font-size: 30px;
-  background-color: #fff;
+  /* background-color: #fff; */
   width: fit-content;
   display: block;
   margin: 20px auto;
   padding: 10px 200px;
+  border-bottom: double 5px white;
+  
 }
 
 .row{
   display: flex;
   justify-content: center;
 }
+.row1{
+  border-bottom:  double 5px ;
+}
+
 .board{
   display: block;
   margin: 20px auto;
-  background-color: #ff8080;
+  /* background-color: #ff8080; */
   width: fit-content;
   padding:10px;
   border-radius: 5px;
 }
 
 .box{
-  background-color: #fff;
-  border: 1px solid gray;
+  /* background-color: #fff; */
+  /* border: 1px solid gray; */
   width: 100px;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
+}
+.boxs{
+  border-right: double 5px white;
 }
 .box:hover{
  cursor: pointer;
